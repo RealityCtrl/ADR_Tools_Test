@@ -4,7 +4,7 @@ Date: 2020-08-24
 
 ## Status
 
-Accepted
+Superceded by [5. Use python tools](0005-use-python-tools.md)
 
 ## Context
 

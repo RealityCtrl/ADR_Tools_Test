@@ -68,12 +68,12 @@
         <div class="panel-group">
             
             <div class="panel panel-default">
-                <div class="panel-heading adr-accepted">
+                <div class="panel-heading adr-amended">
                     <h4 class="panel-title">
                         <a data-toggle="collapse" href="#collapse0">1. Record architecture decisions</a>
 
                         
-                        <i class="adr-icon fas fa-fw fa-check"></i>
+                        <i class="adr-icon fas fa-fw fa-arrow-down"></i>
                         
 
                     </h4>
@@ -83,6 +83,7 @@
 <p>Date: 2020-08-24</p>
 <h2>Status</h2>
 <p>Accepted</p>
+<p>Amended by <a href="0005-use-python-tools.md">5. Use python tools</a></p>
 <h2>Context</h2>
 <p>We need to record the architectural decisions made on this project.</p>
 <h2>Decision</h2>
@@ -94,12 +95,12 @@
             </div>
             
             <div class="panel panel-default">
-                <div class="panel-heading adr-accepted">
+                <div class="panel-heading adr-superceded">
                     <h4 class="panel-title">
                         <a data-toggle="collapse" href="#collapse1">2. Implement as Unix shell scripts</a>
 
                         
-                        <i class="adr-icon fas fa-fw fa-check"></i>
+                        <i class="adr-icon fas fa-fw fa-times"></i>
                         
 
                     </h4>
@@ -108,7 +109,7 @@
                     <div class="panel-body"><h1>2. Implement as Unix shell scripts</h1>
 <p>Date: 2020-08-24</p>
 <h2>Status</h2>
-<p>Accepted</p>
+<p>Superceded by <a href="0005-use-python-tools.md">5. Use python tools</a></p>
 <h2>Context</h2>
 <p>The issue motivating this decision, and any context that influences or constrains the decision.</p>
 <h2>Decision</h2>
@@ -166,6 +167,60 @@
 <p>The issue motivating this decision, and any context that influences or constrains the decision.</p>
 <h2>Decision</h2>
 <p>The change that we're proposing or have agreed to implement.</p>
+<h2>Consequences</h2>
+<p>What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.</p>
+</div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading adr-unknown">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse4">5. Use python tools</a>
+
+                        
+                        <i class="adr-icon fas fa-fw fa-question"></i>
+                        
+
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body"><h1>5. Use python tools</h1>
+<p>Date: 2020-08-24</p>
+<h2>Status</h2>
+<p>Supercedes <a href="0002-implement-as-unix-shell-scripts.md">2. Implement as Unix shell scripts</a></p>
+<p>Proposed</p>
+<p>amends <a href="0001-record-architecture-decisions.md">1. Record architecture decisions</a></p>
+<h2>Context</h2>
+<p>The issue motivating this decision, and any context that influences or constrains the decision.</p>
+<h2>Decision</h2>
+<p>Use <a href="https://bitbucket.org/tinkerer_/adr-tools-python/src/master/">https://bitbucket.org/tinkerer_/adr-tools-python/src/master/</a> in place of adr-tools and <a href="https://pypi.org/project/adr-viewer/">https://pypi.org/project/adr-viewer/</a> to generate webpage for viewing.</p>
+<h2>Consequences</h2>
+<p>What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.</p>
+</div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading adr-unknown">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse5">6. Rejected proposal for testing</a>
+
+                        
+                        <i class="adr-icon fas fa-fw fa-question"></i>
+                        
+
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body"><h1>6. Rejected proposal for testing</h1>
+<p>Date: 2020-08-24</p>
+<h2>Status</h2>
+<p>Rejected</p>
+<h2>Context</h2>
+<p>Want a rejected document to test out how it displays</p>
+<h2>Decision</h2>
+<p>Creating this sample rejected document</p>
 <h2>Consequences</h2>
 <p>What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.</p>
 </div>

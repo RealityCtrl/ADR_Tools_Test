@@ -6,6 +6,8 @@ Date: 2020-08-24
 
 Accepted
 
+Amended by [5. Use python tools](0005-use-python-tools.md)
+
 ## Context
 
 We need to record the architectural decisions made on this project.
