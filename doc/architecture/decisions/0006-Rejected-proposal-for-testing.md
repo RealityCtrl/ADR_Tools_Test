@@ -16,4 +16,4 @@ Creating this sample rejected document
 
 ## Consequences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+Seems like adr-viewer only supports Accepted Superceeded and Amended https://github.com/mrwilson/adr-viewer#supported-record-types
